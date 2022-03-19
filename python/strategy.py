@@ -42,13 +42,13 @@ class DivStrategy(Strategy):
 
 
 class Context:
-    _strategy: Strategy
+    __strategy: Strategy
 
     def set_strategy(self, strategy: Strategy):
-        self._strategy = strategy
+        self.__strategy = strategy
 
     def execute_strategy(self, first_num: int, second_num: int):
-        return self._strategy.execute(first_num=first_num, second_num=second_num)
+        return self.__strategy.execute(first_num=first_num, second_num=second_num)
 
 
 def main():
