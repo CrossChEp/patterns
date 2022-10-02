@@ -1,4 +1,4 @@
-package strategy;
+package behavioural.strategy;
 
 public class SumStrategy implements Strategy {
     static int execute(int firstNum, int secondNum) {

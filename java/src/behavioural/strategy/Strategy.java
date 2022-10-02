@@ -1,6 +1,4 @@
-package strategy;
-
-import java.util.NoSuchElementException;
+package behavioural.strategy;
 
 public interface Strategy {
     static int execute(int firstNum, int secondNum) {
