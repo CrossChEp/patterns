@@ -5,7 +5,7 @@ import generating.abstract_factory.products.Chair;
 import generating.abstract_factory.products.Sofa;
 
 public class FactoryProvider {
-    private AbstractFurnitureFactory factory;
+    private final AbstractFurnitureFactory factory;
 
     public FactoryProvider(AbstractFurnitureFactory factory) {
         this.factory = factory;
